@@ -1,20 +1,23 @@
-export default function AreaSelector() {
+export default function Selector(props) {
+
+    const defaultValue = props.defaultValue
 
     return (
-        <select style={{
+        <div style={{
             width: "219px",
-            height: "40px",
             top: "444px",
             left: "621px",
+            // border: "1px solid black",
+            boxShadow: "2px 2px 2px 1px rgba(0, 0, 0, 0.2)",
             borderRadius: "6px",
             padding: "8px 16px 16px 16px",
         }}>
-            <option>ADSL</option>
-            <option>a</option>
-            <option>v</option>
-            <option>c</option>
-            <option>d</option>
-        </select>
+            
+            <div>a</div>
+            <div>v</div>
+            <div>c</div>
+            <div>d</div>
+        </div>
     );
 
 }

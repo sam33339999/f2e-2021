@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Selector />
-      <BlockButtom color="lightgreen" />
+      <BlockButtom />
     </div>
     // <div className="App">
     //   <header className="App-header">
